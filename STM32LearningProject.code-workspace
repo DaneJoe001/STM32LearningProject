@@ -5,9 +5,6 @@
         }
     ],
     "settings": {
-        "files.autoGuessEncoding": true,
-        "C_Cpp.default.configurationProvider": "cl.eide",
-        "C_Cpp.errorSquiggles": "disabled",
         "files.associations": {
             ".eideignore": "ignore",
             "*.a51": "a51",
@@ -20,11 +17,14 @@
             "*.cxx": "cpp",
             "*.cc": "cpp"
         },
+        "files.autoGuessEncoding": true,
+        "C_Cpp.default.configurationProvider": "cl.eide",
         "[yaml]": {
             "editor.insertSpaces": true,
             "editor.tabSize": 4,
             "editor.autoIndent": "advanced"
-        }
+        },
+        "C_Cpp.errorSquiggles": "disabled"
     },
     "extensions": {
         "recommendations": [
