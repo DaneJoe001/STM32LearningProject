@@ -1,14 +1,3 @@
-/*
- * ************************************************
- *
- *              STM32 blink gcc demo
- *
- *  CPU: STM32F103C8
- *  PIN: PA1
- *
- * ************************************************
-*/
-
 #include "stm32f10x.h"
 
 #define LED_PERIPH RCC_APB2Periph_GPIOA
